@@ -34,13 +34,17 @@ ul {
     margin-left: 3em !important;
 }
 
+@media screen and (min-width: 512px) {
+    .column {
+        position: absolute;
+        transform: translate(-50%, 0);
+        left: 50%;
+        min-width: 500px;
+    }
+}
+
 .column {
-    position: absolute;
-    transform: translate(-50%, 0);
-    left: 50%;
     margin: 1em 0;
-    min-width: 100%;
-    min-inline-size: 100%;
 }
 
 .card {
