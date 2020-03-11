@@ -39,8 +39,8 @@ ul {
     transform: translate(-50%, 0);
     left: 50%;
     margin: 1em 0;
-    min-width: 512px;
-    min-inline-size: 512px;
+    min-width: 100%;
+    min-inline-size: 100%;
 }
 
 .card {
