@@ -1,0 +1,48 @@
+.inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img-wrapper {
+    margin-left: 32.5px;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+html, body {
+    background-color: whitesmoke;
+    height: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+b {
+    font-size: 20px;
+}
+
+ul {
+    margin: 1em 2em;
+    margin-left: 3em !important;
+}
+
+.column {
+    position: absolute;
+    transform: translate(-25%, 0);
+    left: 50%;
+    margin: 1em 0;
+    min-width: 512px;
+    min-inline-size: 512px;
+}
+
+.card {
+    padding: 2em;
+}
