@@ -36,7 +36,7 @@ ul {
 
 .column {
     position: absolute;
-    transform: translate(-25%, 0);
+    transform: translate(50%, 0);
     left: 50%;
     margin: 1em 0;
     min-width: 512px;
