@@ -43,6 +43,15 @@ ul {
     }
 }
 
+@media screen and (max-width: 1025px) {
+    .navbar-dropdown {
+        display: none;
+    }
+    .navbar-item.is-active .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown {
+        display: block;
+    }
+}
+
 .column {
     margin: 1em 0;
 }
