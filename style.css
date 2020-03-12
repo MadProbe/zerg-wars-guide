@@ -50,3 +50,11 @@ ul {
 .card {
     padding: 2em;
 }
+
+a:hover {
+    color: blue;
+}
+
+a {
+    transition: .25s;
+}
