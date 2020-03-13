@@ -3,3 +3,6 @@ Fix top padding from guide name on mobiles.
 Add Arl1om's terran guide and avatar.
 Fixed avatar image size (100x100).
 Other small fixes.
+
+# Version 0.1.1:
+Added page for site updates (https://madprobe.github.io/zerg-wars-guide/site-updates.html)
