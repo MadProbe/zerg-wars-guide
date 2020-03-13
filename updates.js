@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => fetch('Updates.md')
-    .then(res => res.text())
+    .catch(() => `# Version 0.1.0:
+Fix top padding from guide name on mobiles.
+Add Arl1om's terran guide and avatar.
+Fixed avatar image size (100x100).
+Other small fixes.    
+`)
+    .then(res => typeof res === "string" ? res : res.text())
     .then(str => str.trim().split(/\n{2,}/g).map(text => text.split(/\n/g)))
     .then(texts => {
         const content = document.querySelector('.content');
-        const br = document.createElement('br');
         for (const lines of texts) {
             const header = document.createElement('h1');
             header.append(lines[0]);
@@ -12,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => fetch('Updates.md')
                 const line = lines[i];
                 const text = document.createTextNode(line);
                 content.appendChild(text);
-                content.appendChild(br);
+                content.appendChild(document.createElement('br'));
             }
         }
     }));
