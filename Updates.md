@@ -6,3 +6,6 @@ Other small fixes.
 
 # Version 0.1.1:
 Added page for site updates (https://madprobe.github.io/zerg-wars-guide/site-updates.html)
+
+# Version 0.1.2:
+Added more guides for terran.
