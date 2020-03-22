@@ -17,7 +17,7 @@ function LooseMarkdown(text) {
 		.replace(/#### \s*([^#\n]+)\s*(?: ####)?\s*/g, '<h4>$1</h4>\n') // h4
 		.replace(/### \s*([^#\n]+)\s*(?: ###)?\s*/g, '<h3>$1</h3>\n') // h3
 		.replace(/## \s*([^#\n]+)\s*(?: ##)?\s*/g, '<h2>$1</h2>\n') // h2
-		.replace(/# \s*([^#\n]+)\s* #?\s*/g, '<h1>$1</h1>\n') // h1
+		.replace(/# \s*([^#\n]+)\s*(?: #)?\s*/g, '<h1>$1</h1>\n') // h1
 		.replace(/\n?([^\n]+)\n-+\n/g, '\n<h2>$1</h2>\n') // also h2
 		.replace(/\n?([^\n]+)\n=+\n/g, '\n<h1>$1</h1>\n') // also h1
 		.replace(/\_\_([^*]+)\_\_/g, '<b>$1</b>') // bold

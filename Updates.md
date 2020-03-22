@@ -1,4 +1,4 @@
-# Version 0.2.0
+# Version 0.2.0:
 Added patch notes.
 Converted indentation from spaces to tabs. (Less file size)
 
