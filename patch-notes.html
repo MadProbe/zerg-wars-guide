@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
 	<link rel="stylesheet" href="style.css">
-	<script src="site-updates.js"></script>
-	<title>Site Updates</title>
+	<script src="markdown.js"></script>
+	<title>Document</title>
 </head>
 <body>
 	<nav class="navbar" role="navigation">
@@ -33,5 +33,12 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('patch-notes.md')
+				.then(res => res.text())
+				.then(text => this.querySelector('.content').insertAdjacentHTML('beforeend', LooseMarkdown(text)))
+		})
+	</script>
 </body>
 </html>
