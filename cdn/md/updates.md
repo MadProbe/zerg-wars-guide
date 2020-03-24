@@ -1,4 +1,4 @@
-# Version 0.3.1:
+# [Version 0.3.1](https://github.com/MadProbe/zerg-wars-guide/commit/738b7e144e26bad95ae526f725d33a1825203a63):
 Fixed some bugs on site.
 
 # [Version 0.3.0](https://github.com/MadProbe/zerg-wars-guide/commit/6162be2393cfb3001bf205ba1b3b8c24ccfd91a5):
