@@ -12,19 +12,20 @@ function LooseMarkdown(text) {
 		.replace(/"/g, '&quot;') // Escape quotes
 		.replace(/!\[([^\[\]]+)\]\(([^]*)\)/g, function (_value) { return '<img src="' + arguments[2] + '" alt="' + arguments[1] + '">'; })
 		.replace(/\[([^\[\]]+)\]\(([^]*)\)/g, function (_value) { return '<a href="' + arguments[2] + '">' + arguments[1] + '</a>'; })
-		.replace(/###### \s*([^#\n]+)\s*(?: ######)?\s*/g, '<h6>$1</h6>\n') // h6
-		.replace(/##### \s*([^#\n]+)\s*(?: #####)?\s*/g, '<h5>$1</h5>\n') // h5
-		.replace(/#### \s*([^#\n]+)\s*(?: ####)?\s*/g, '<h4>$1</h4>\n') // h4
-		.replace(/### \s*([^#\n]+)\s*(?: ###)?\s*/g, '<h3>$1</h3>\n') // h3
-		.replace(/## \s*([^#\n]+)\s*(?: ##)?\s*/g, '<h2>$1</h2>\n') // h2
-		.replace(/# \s*([^#\n]+)\s*(?: #)?\s*/g, '<h1>$1</h1>\n') // h1
-		.replace(/\n?([^\n]+)\n-+\n/g, '\n<h2>$1</h2>\n') // also h2
-		.replace(/\n?([^\n]+)\n=+\n/g, '\n<h1>$1</h1>\n') // also h1
+		.replace(/\s*###### \s*([^#\n]+)\s*(?: ######)?\s*/g, '<h6>$1</h6>') // h6
+		.replace(/\s*##### \s*([^#\n]+)\s*(?: #####)?\s*/g, '<h5>$1</h5>') // h5
+		.replace(/\s*#### \s*([^#\n]+)\s*(?: ####)?\s*/g, '<h4>$1</h4>') // h4
+		.replace(/\s*### \s*([^#\n]+)\s*(?: ###)?\s*/g, '<h3>$1</h3>') // h3
+		.replace(/\s*## \s*([^#\n]+)\s*(?: ##)?\s*/g, '<h2>$1</h2>') // h2
+		.replace(/\s*# \s*([^#\n]+)\s*(?: #)?\s*/g, '<h1>$1</h1>') // h1
+		.replace(/\n*([^\n]+)\n-+\n/g, '<h2>$1</h2>') // also h2
+		.replace(/\n*([^\n]+)\n=+\n/g, '<h1>$1</h1>') // also h1
 		.replace(/\_\_([^*]+)\_\_/g, '<b>$1</b>') // bold
 		.replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>') // bold
 		.replace(/\*+([^*]+)\*+/g, '<i>$1</i>') // italic
 		.replace(/~~+([^~]+)~~+/g, '<s>$1</s>') // stroked
-		.replace(/\n/g, '<br>')
+		.replace(/\n+/g, '<br>')
+		.replace(/<br><br><h/g, '<h')
 }
 /*
 console.log(LooseMarkdown(

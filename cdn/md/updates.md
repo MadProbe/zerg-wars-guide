@@ -1,3 +1,7 @@
+# Version 0.3.0:
+Move non-html code to cdn and structure by file type.
+Don't block the renderer by very large amount of style sheets lol.
+
 # Version 0.2.0:
 Added patch notes.
 Converted indentation from spaces to tabs. (Less file size)

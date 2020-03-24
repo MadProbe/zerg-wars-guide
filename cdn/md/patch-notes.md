@@ -66,34 +66,28 @@ Alarak now has his own version of Drop Pods.
 
 # Version 6.10
 Player Notes:
-
 ## [Terran]
 Changed medic’s heal
 	*Heal amount nerfed
 	*Heal energy cost buffed.
 Decreased Goliath's damage by 2.
 Fixed a bug that made Drop pods to start with a charge at the start of the game.
-
 ## [Protoss]
 Fixed void ray upgrade bug.
 Added a new upgrade for Structures.
 Protoss now has it's own type of "Drop Pods".
-
 ## [Tal’darim]
 Added new structure: Tal’darim Spire.
 War Prisms while in Phasing mode will provide bonus attackspeed to nearby units , the same bonus as the Tal'darim Pylon.
-
 ## [Zerg]
 Banelings are now light.
 Fixed some bugs with the Charges on reducing cooldown.
 Lurker Den now gives minerals on death.
 Added an upgrade for Nydus Worm.
 Bile Launchers can be built 2 minutes faster.
-
 ## [Mengsk]
 Increased the mineral cost of elite units and weapons.
 Bunker Mengsk Drop now costs 50 Minerals.
-
 ## [Game]
 Added 2 new strains of Zerglings, that the attacking zerg can choose from!
 Ultralisks can now evolve into Torrasque aswell!

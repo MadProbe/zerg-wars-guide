@@ -3,10 +3,16 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
-	<link rel="stylesheet" href="style.css">
-	<script src="markdown.js"></script>
-	<title>Document</title>
+	<meta name="description" content="SC2 Zerg Wars Guide">
+	<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" as="style"
+		  onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+	</noscript>
+	<link rel="stylesheet" href="/cdn/css/style.css">
+	<script defer src="/cdn/js/markdown.js"></script>
+	<script defer src="/cdn/js/patch-notes.js"></script>
+	<title>Patch Notes</title>
 </head>
 <body>
 	<nav class="navbar" role="navigation">
@@ -28,17 +34,8 @@
 	</nav>
 	<div class="main columns">
 		<div class="column is-four-fifths">
-			<div class="card">
-				<div class="content"></div>
-			</div>
+			<div class="card content"></div>
 		</div>
 	</div>
-	<script>
-		document.addEventListener("DOMContentLoaded", function () {
-			fetch('patch-notes.md')
-				.then(res => res.text())
-				.then(text => this.querySelector('.content').insertAdjacentHTML('beforeend', LooseMarkdown(text)))
-		})
-	</script>
 </body>
 </html>

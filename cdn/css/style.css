@@ -68,10 +68,15 @@ ul {
 	font-weight: 600;
 }
 
-a {
+a, a.navbar-item {
+	color: #3273dc;
 	transition: .25s;
 }
 
 .inline>div {
 	text-align: center;
+}
+
+.content h2:not(:first-child) {
+    margin-top: 0.7em;
 }
