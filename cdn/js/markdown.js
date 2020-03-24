@@ -10,8 +10,8 @@ function LooseMarkdown(text) {
 		.replace(/</g, '&lt;')
 		.replace(/>/g, '&gt;') // Escape html tags for safety
 		.replace(/"/g, '&quot;') // Escape quotes
-		.replace(/!\[([^\[\]]+)\]\(([^]*)\)/g, function (_value) { return '<img src="' + arguments[2] + '" alt="' + arguments[1] + '">'; })
-		.replace(/\[([^\[\]]+)\]\(([^]*)\)/g, function (_value) { return '<a href="' + arguments[2] + '">' + arguments[1] + '</a>'; })
+		.replace(/!\[([^\[\]]+)\]\(([^\(\)]*)\)/g, function (_value) { return '<img src="' + arguments[2] + '" alt="' + arguments[1] + '">'; })
+		.replace(/\[([^\[\]]+)\]\(([^\(\)]*)\)/g, function (_value) { return '<a href="' + arguments[2] + '">' + arguments[1] + '</a>'; })
 		.replace(/\s*###### \s*([^#\n]+)\s*(?: ######)?\s*/g, '<h6>$1</h6>') // h6
 		.replace(/\s*##### \s*([^#\n]+)\s*(?: #####)?\s*/g, '<h5>$1</h5>') // h5
 		.replace(/\s*#### \s*([^#\n]+)\s*(?: ####)?\s*/g, '<h4>$1</h4>') // h4

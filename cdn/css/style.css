@@ -78,5 +78,5 @@ a, a.navbar-item {
 }
 
 .content h2:not(:first-child) {
-    margin-top: 0.7em;
+	margin-top: 0.7em;
 }

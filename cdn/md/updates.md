@@ -1,3 +1,6 @@
+# Version 0.3.1:
+Fixed some bugs on site.
+
 # [Version 0.3.0](https://github.com/MadProbe/zerg-wars-guide/commit/6162be2393cfb3001bf205ba1b3b8c24ccfd91a5):
 Move non-html code to cdn and structure by file type.
 Don't block the renderer by very large amount of style sheets lol.
@@ -17,4 +20,3 @@ Fix top padding from guide name on mobiles.
 Add Arl1om's terran guide and avatar.
 Fixed avatar image size (100x100).
 Other small fixes.
-
