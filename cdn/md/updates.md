@@ -1,8 +1,8 @@
-# Version 0.3.0:
+# [Version 0.3.0](https://github.com/MadProbe/zerg-wars-guide/commit/6162be2393cfb3001bf205ba1b3b8c24ccfd91a5):
 Move non-html code to cdn and structure by file type.
 Don't block the renderer by very large amount of style sheets lol.
 
-# Version 0.2.0:
+# [Version 0.2.0](https://github.com/MadProbe/zerg-wars-guide/commit/d9b631de7fa9175adb4aced6b4b682fd6b4fcfff):
 Added patch notes.
 Converted indentation from spaces to tabs. (Less file size)
 
