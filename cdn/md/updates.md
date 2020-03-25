@@ -13,7 +13,7 @@ Converted indentation from spaces to tabs. (Less file size)
 Added more guides for terran.
 
 # Version 0.1.1:
-Added page for site [updates](https://madprobe.github.io/zerg-wars-guide/site-updates.html).
+Added page for [site updates](https://madprobe.github.io/zerg-wars-guide/site-updates.html).
 
 # Version 0.1.0:
 Fix top padding from guide name on mobiles.
