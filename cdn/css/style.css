@@ -76,7 +76,7 @@ ul {
 	font-weight: 600;
 }
 
-a, a.navbar-item {
+a, a.navbar-item, a.navbar-link, .navbar-item>a {
 	color: #3273dc;
 	transition: .25s;
 }
