@@ -1,3 +1,44 @@
+# Version 6.18
+Fixed leaderboard
+
+# Version 6.17
+Supply Depots and Pylons no longer give income.
+Reduced the cost of Supply Depots and Pylons.
+Added a new submenu for Terran and Protoss named Special Research.(Where upgrade the terran base was located)
+The submenu contains upgrades for income , and the upgrade for terran base. Also contains more based on the faction you play (Terran or Protoss)
+Reduced the cost of Tal'darim Cybernetics Core
+Zealots from the For Aiur Event will now use their ability.
+The screen shake effect from nydus events is less intense.
+Fixed Elite Marine Stimpack tooltip.
+Fixed Ultralisk CD send upgrade.
+Increased the cost of Tal'darim Gateways and for purchasing units from the Tal'darim spire.
+Reduced the attack range of Wrathwalkers.
+Increased the health of hellbats by 5 and for hellions with 10.
+Ascendant cost increased.
+Fixed Yagdra Boss.
+Reduced the cost of Widow Mines.
+Fixed a bug where Widow Mines wouldn't give minerals on death to the killer.
+Hatchery,Lair and Hives can now produce Swarm Queens.
+Reworked the buildings from Zerg. (Buffed)
+Units from the Tal'darim Spire now have 60 seconds timed life.
+Added new upgrades for Protoss Mech.
+Nerfed Mengsk Bunkers and increased some costs.
+Reworked a bit Protoss Buildings.
+Added a new ability for Protoss and an upgrade for it.
+Removed Auto Cast on Corrosive Bile for Ravagers.
+No more wins if you play solo or versus AI.
+Zerg can now send Lurkers.
+Zerg can now send Nydus Worms.
+Zerg can now send Omega Worms.
+Resources images in the top right corner are no longer bugged and change depending on your faction.
+Added 4 new events for Apocalypse.
+Further increased the chances of events to happen on hard.
+Increased the chance of Apocalipse Events to happen.
+All Apocalipse events have a different chat color now.
+Fixed Raptor Bug.
+Added an upgrade for Perdition Turrets.
+Added many upgrades for Terrans that allow them to interact with the Planetary Fortress Base.
+
 # Version 6.16
 Ravagers are now light.
 Fixed the chat message for nydus event.
