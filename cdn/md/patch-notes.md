@@ -1,11 +1,25 @@
+# Version 6.20
+Bug fixes.
+Nerfed Bile Launcher dmg.
+
+# Version 6.19
+Reduced the cost of a lot of stuff for Zerg.
+Death Fleet starts now with cooldown.
+Leaderboard starts minimized.
+Changed the color of words in the Loading Screen.
+Fixed a bug with Auto Nydus Worms.
+Added more Spine Crawlers and Spore Crawlers to the Zerg Spawning Area.
+Fixed Infestor Neural Parasite, now works to be researched and used.
+Fixed an apocalypse event.
+
 # Version 6.18
-Fixed leaderboard
+Fixed leaderboard.
 
 # Version 6.17
 Supply Depots and Pylons no longer give income.
 Reduced the cost of Supply Depots and Pylons.
 Added a new submenu for Terran and Protoss named Special Research.(Where upgrade the terran base was located)
-The submenu contains upgrades for income , and the upgrade for terran base. Also contains more based on the faction you play (Terran or Protoss)
+The submenu contains upgrades for income, and the upgrade for terran base. Also contains more based on the faction you play. (Terran or Protoss)
 Reduced the cost of Tal'darim Cybernetics Core
 Zealots from the For Aiur Event will now use their ability.
 The screen shake effect from nydus events is less intense.
@@ -119,7 +133,7 @@ Added a new upgrade for Structures.
 Protoss now has it's own type of "Drop Pods".
 ## [Tal’darim]
 Added new structure: Tal’darim Spire.
-War Prisms while in Phasing mode will provide bonus attackspeed to nearby units , the same bonus as the Tal'darim Pylon.
+War Prisms while in Phasing mode will provide bonus attackspeed to nearby units, the same bonus as the Tal'darim Pylon.
 ## [Zerg]
 Banelings are now light.
 Fixed some bugs with the Charges on reducing cooldown.
