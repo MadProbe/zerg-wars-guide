@@ -1,13 +1,8 @@
 {
 	"name": "zerg-wars-guide",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "Web Site For StarCraft 2 Zerg Wars Arcade.",
-	"main": "dev/_server/_simple_server.js",
-	"type": "module",
-	"scripts": {
-		"test": "node .",
-		"start": "node ."
-	},
+	"main": "dev/_server/server.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/MadProbe/zerg-wars-guide.git"
@@ -19,10 +14,9 @@
 	},
 	"homepage": "https://github.com/MadProbe/zerg-wars-guide#readme",
 	"dependencies": {
-		"body-parser": "^1.19.0",
-		"express": "^4.17.1"
+		"mime-types": "^2.1.27"
 	},
 	"engines": {
-		"node": ">=12.0.0"
+		"node": ">=8.4.0"
 	}
 }
