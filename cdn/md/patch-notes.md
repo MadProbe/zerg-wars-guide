@@ -1,3 +1,86 @@
+﻿# Version 6.21
+
+Added skins for Zerg , now you get skins for Terran , Protoss or Zerg when you get 10 wins with it.
+To see how many wins you have with the faction you are playing type -wins in chat.
+Structure Overcharge now starts with 4 minutes cooldown from two.
+Structure Overcharge range reduced by 3.
+Omega Worm now has a bounty , rewards 125 minerals on death now.
+Hercules cost reduced , kill bounty reduced.
+Cyclones can't target anymore buildings.
+Reduced the charges for reduce destruction wave cd by one , same for armor and shields upgrade for Alarak.
+Increased the number of charges for reducing cooldown of Alarak Gateway units by one.
+Units spawned by For Aiur! Event now gives bounty.
+Reduced the Health and Shields of Tal'darim Gateways.
+Increased the damage dealt by Leviathan.
+Reduced the cost of Perdition Turrets.
+Structure Overcharge can't be cast on air units anymore.
+Yagdra drop pods buffed , now drops Brakk aswell.
+Leviathan now casts his abilities only on enemies.
+Lurkers now have a bounty.
+Baneling event now has kaboomers aswell.
+Units shouldn't spawn anymore on cliffs sometimes.
+The enemy swarm will now choose between sending Brood lords , Devourers or Brutalisks later into the game.
+Wrath of the Tal'darim now gives 2x faster production from 4x.
+Added an upgrade for Wrath of the Tal'darim to give 4x faster production from 2x.
+Alarak won't use anymore his deadly charge ability on Neutral Units automatically.
+Fixed a bug with the Colossus Upgrade.
+Fixed a bug that prevented getting wins when playing random.
+Reduced the Health of Diamondbacks by 25.
+Increased the cost of Diamondbacks by 5.
+Increased the damage vs non armored for Diamondbacks by 5.
+Slayer health and shields got nerfed.
+Tal'darim Cybernetics Core hotkeys for Damage fixed.
+Reduced the stun duration of Hercules after Warp by two seconds (12->10)
+Reduced the cost of "Upgrade Mineral Income" for protoss and terran by 5 minerals.
+Raptors are faster.
+Buffed the Hybrid Boss damage (Apocalipse Mode)
+Buffed Adept Health and Shields by 10.
+Added more Spine Crawlers and Spores to the Zerg.
+Vanguard Upgrade against armored got nerfed.(From 7 bonus damage vs armored to 4).
+Reduced the attack range of Vanguard by one.
+Reduced the cost of Vanguard by 5.
+Reduced the cost of High Templar by 5.
+Reduced the cost of Reavers by 5.
+Reduced the cost of Disruptors by 5.
+Reduced the cost of Observers by 5.
+The Swarm starts now with one upgrade for Zerg Defensive Structures.
+Added a new event
+Mengsk now starts with more Gas Income.(25->30)
+Reduced the cost of Tal'darim Photon Cannon 150->125 , now uses 2 supply.
+Increased the Health and Shields of Tal'darim Photon Cannon 200->250.
+Reduced Tal'darim Berserker cost 75->70
+Terran Reinforcements now has Raynor too coming to help.
+Bloodlust increases the Berserkers damage by 8 from 4.
+Shield regeneration delay for Zealots got halved(10 seconds -> 5 seconds).
+More mutas and corruptors come over time now.
+Less zerglings come over time.
+Reduced the Health of Goliaths by 5.
+Ravens cost reduced by 5.
+Battlecruiser cost reduced by 25.
+Firebat cost reduced by 4.
+Doubled Ghost energy rate.
+Increased Viking's health by 5 in both modes
+Increased Sky Fury health by 30.
+Medic cost reduced by 5.
+Mengsk Battlecruiser now gets stunned for 5 seconds after warping in.
+Sentry cost reduced by 5.
+Added Phoenix to Protoss.
+Added an upgrade for Phoenix.
+Reduced the cost of Shield Batteries to 70 from 75.
+Reduced the cost of Khaydarin Monoliths to 225 from 250.
+The Swarm will now send Aberrations or Infestors or Hunter killers.
+Reduced the cost of Spawning Pool Upgrades for Zerglings.
+Reduced the cost of Roach Warren Upgrades for Roaches.
+Reduced the cost of a lot of stuff from Ultralisk Cavern.
+Increased Liberator attackspeed 1.8->2.
+Added Solo mode
+Added Co-op mode.
+Golden Armada event on Apocalypse now sends a mothership aswell.
+Added a new upgrade for Protoss! Now it can give the terran base shields permanently.
+Now you get 50 supply when an ally leaves the game.
+Increased Tal'darim Spire Cost by 50.
+Alarak Gateway units won't get selected anymore with F2(All army group command)
+
 # Version 6.20
 Bug fixes.
 Nerfed Bile Launcher dmg.
