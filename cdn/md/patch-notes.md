@@ -1,4 +1,51 @@
-﻿# Version 6.21
+﻿# Version 6.26
+More balance changes.
+
+Decreased Elite Firebat Health 250->200
+Each elite now awards more minerals on death compared to their normal counterparts.
+Reduced the damage of Psi Orb 15->10
+Increased Stank health by 500
+Reduced the cooldown of Archangel Ability from 5 seconds to 2
+Added a new event.
+Reduced Interceptor cost from 5 to 3.
+Reduced time taken to make an interceptor from 10 to 5.
+Gorgon's now award minerals on death.
+Archangel's now award minerals on death.
+Raynor now awards minerals on death.
+Adepts can't attack air units anymore.
+Adepts attackspeed decreased from 1.8 to 1.6
+Adepts damage increased by 1 and versus light by 2
+Yagdra fireball damage increased from 100 to 150
+Brakk now awards minerals on death.
+Team 2 no longer gets elite banshee's by expanding north with the base.
+Made Solo mode a bit easier
+Made Co-op mode a bit harder.
+Work will slowly go towards a new faction.
+
+# Version 6.25
+Fixed raynor not dying.
+Fixed lurker upgrade for range.
+Modified CO-OP and Solo mode.
+
+# Version 6.24
+Increased the cooldown of Corrosive bile for Ravagers by 20 seconds (10 -> 30)
+Made Ravagers attack faster. (1.6 -> 1.4)
+More bug fixes.
+
+# Version 6.23
+Bug fixes and changes for CO-OP and Solo
+
+# Version 6.22
+Bug fixes.
+The Terran base now won't rush that much. (CO-OP/Solo)
+Added more stuff that the Terran Base can do.(CO-OP/Solo)
+Added 2 more events.
+Events occur more often now.
+Reduced Infestor and Hydralisk cost.
+Increased the energy regeneration of Infestors and Vipers.
+The Swarm no longer gets skins if a player has zerg skins from the other team.
+
+# Version 6.21
 
 Added skins for Zerg , now you get skins for Terran , Protoss or Zerg when you get 10 wins with it.
 To see how many wins you have with the faction you are playing type -wins in chat.
