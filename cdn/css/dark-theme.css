@@ -10,7 +10,7 @@
     color: #a0b0ff;
 }
 
-.dark *:not(a) {
+.dark *:not(a), .dark a:hover {
     color: #ddd;
 }
 
