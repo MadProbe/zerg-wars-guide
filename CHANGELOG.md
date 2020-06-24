@@ -9,6 +9,9 @@ Now all styles bundled into 1 file.
 (before served one additional css file from other website.)
 Up to 90% styles payload size reduction
 (Removed unused css, minified code.)
+Up to 70% document size reduction by minification.
+Resized Arl1om's avatar to 100x100 from 920x920
+(x20 avatar size reduction)
 
 # [Version 0.3.1](https://github.com/MadProbe/zerg-wars-guide/tree/0.3.1):
 Fixed some bugs on site.
