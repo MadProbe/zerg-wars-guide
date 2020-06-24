@@ -7,10 +7,10 @@
 }
 
 .dark .navbar-dropdown a:hover {
-    color: #a0b0ff;
+    color: #a0b0ff !important;
 }
 
-.dark *:not(a), .dark a:hover {
+.dark *:not(a) {
     color: #ddd;
 }
 
