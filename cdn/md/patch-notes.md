@@ -1,4 +1,5 @@
-﻿# Version 6.26
+﻿# Version 6.26 
+(on NA merged with 6.25)
 More balance changes.
 
 Decreased Elite Firebat Health 250->200
@@ -253,8 +254,8 @@ Alarak now has his own version of Drop Pods.
 Player Notes:
 ## [Terran]
 Changed medic’s heal
-	*Heal amount nerfed
-	*Heal energy cost buffed.
+	1. Heal amount nerfed
+	2. Heal energy cost buffed.
 Decreased Goliath's damage by 2.
 Fixed a bug that made Drop pods to start with a charge at the start of the game.
 ## [Protoss]

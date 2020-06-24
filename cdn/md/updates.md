@@ -1,4 +1,16 @@
-# [Version 0.3.1](https://github.com/MadProbe/zerg-wars-guide/commit/738b7e144e26bad95ae526f725d33a1825203a63):
+# [Version 1.0.0](https://github.com/MadProbe/zerg-wars-guide)
+Release!!!
+Patch notes and site updates are now static web pages
+(before 1.0.0 they were dynamically fetched and appended to document.)
+Added support for dark theme.
+Added Richy's how to save bank with your wins guide.
+## Speedups:
+Now all styles bundled into 1 file.
+(before served one additional css file from other website.)
+Up to 90% styles payload size reduction
+(Removed unused css, minified code.)
+
+# [Version 0.3.1](https://github.com/MadProbe/zerg-wars-guide/tree/0.3.1):
 Fixed some bugs on site.
 
 # [Version 0.3.0](https://github.com/MadProbe/zerg-wars-guide/commit/6162be2393cfb3001bf205ba1b3b8c24ccfd91a5):
