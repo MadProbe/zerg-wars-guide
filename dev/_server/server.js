@@ -1,5 +1,6 @@
 // @ts-check
 const https = require("https"),
+	http = require("http"), 
 	mime_types = require("mime-types"),
 	zlib = require("zlib"),
 	config = require("./config.js"),
@@ -10,11 +11,12 @@ const https = require("https"),
 	_404Location = join(__dirname, '_404.html'),
 	_500Location = join(__dirname, '_500.html'),
 	root = join(__dirname, '..', '..');
-https.createServer({
-	cert: fs.readFileSync(join(__dirname, 'cert', 'cert.pem')),
-	key: fs.readFileSync(join(__dirname, 'cert', 'cert.key'))
-}, (request, response) => {
-	var pathname = new URL(request.url, `https://${request.headers.host}`).pathname,
+/**
+ * @param {import('http').IncomingMessage} request
+ * @param {import('http').ServerResponse} response
+ */
+const handler = (request, response) => {
+	var pathname = new URL(request.url === '/' || request.url === "/index" ? '/index.html' : request.url, `https://${request.headers.host}`).pathname,
 		path = config.dirs.map(regex => regex.exec(pathname)).find(path => path != null);
 	if (path) {
 		var file = join(root, path[0]);
@@ -32,6 +34,9 @@ https.createServer({
 			}
 			response.setHeader('Content-Type', mime_types.lookup(file) || 'text/plain');
 			response.setHeader('Vary', 'Accept-Encoding');
+			/**
+			 * @param {any} err
+			 */
 			var acceptEncoding = request.headers['accept-encoding'].toString(),
 				raw = fs.createReadStream(file),
 				onError = err => {
@@ -65,4 +70,9 @@ https.createServer({
 		response.writeHead(404, { 'Content-Type': 'text/html' });
 		fs.createReadStream(_404Location).pipe(response);
 	}
-}).listen(config.port || 8080, () => console.log(`Server has started on https://localhost:${config.port || 8080}!`));
+};
+https.createServer({
+	cert: fs.readFileSync(join(__dirname, 'cert', 'cert.pem')),
+	key: fs.readFileSync(join(__dirname, 'cert', 'cert.key'))
+}, handler).listen(config.port || 8080, () => console.log(`Server has started on https://localhost:${config.port || 8080}!`));
+http.createServer(handler).listen(80);
