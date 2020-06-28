@@ -3,7 +3,7 @@
     var button = document.querySelector('.theme-toggle');
     var list = document.querySelector('#theme-toggle').classList;
     var text = document.querySelector('#button-text');
-    var state = localStorage.getItem(key) === "true";
+    var state = localStorage.getItem(key) !== "false";
     window.onstorage = function (event) {
         if (event.key === key) {
             setTheme(event.newValue === "true");
