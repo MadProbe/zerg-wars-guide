@@ -20,7 +20,7 @@
 }
 
 html, body {
-    background-color: #f5f5f5;
+    background-color: #ccc;
     height: 100%;
 }
 
@@ -139,7 +139,7 @@ a:hover {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #f5f5f5;
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
     color: #4a4a4a;
     max-width: 100%;
