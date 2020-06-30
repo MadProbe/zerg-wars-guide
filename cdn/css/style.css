@@ -74,7 +74,7 @@ ul {
     margin: 1em 2em
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:769px), print {
     .column {
         position: absolute;
         transform: translate(-50%, 0);
@@ -89,7 +89,7 @@ ul {
     }
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:769px), print {
     .columns:last-child {
         margin-left: 0;
         margin-right: 0;
@@ -146,20 +146,20 @@ a:hover {
     position: relative;
 }
 
-@media screen and (max-width: 1025px) and (min-width: 769px) {
+@media screen and (max-width: 1023px) and (min-width: 769px) {
     .column.is-four-fifths {
         width: 90%;
     }
 }
 
-@media screen and (min-width: 1025px), print {
+@media screen and (min-width: 1024px) {
     .column.is-four-fifths {
         flex: none;
         width: 80%;
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width:769px), print {
     .column {
         position: absolute;
         transform: translate(-50%, 0);
@@ -181,7 +181,7 @@ a:hover {
     padding: .75rem;
 }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width:769px), print {
     .columns:not(.is-desktop) {
         display: flex;
     }
