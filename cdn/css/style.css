@@ -198,7 +198,7 @@ a:hover {
 }
 
 .navbar {
-    background-color: white;
+    background-color: whitesmoke;
     min-height: 3.25rem;
     position: relative;
     z-index: 30;
@@ -315,7 +315,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
         display: none;
     }
     .navbar-menu {
-        background-color: white;
+        background-color: whitesmoke;
         box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
         padding: 0.5rem 0;
     }
@@ -423,7 +423,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
         margin-left: auto;
     }
     .navbar-dropdown {
-        background-color: white;
+        background-color: whitesmoke;
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px;
         border-top: 2px solid #dbdbdb;
