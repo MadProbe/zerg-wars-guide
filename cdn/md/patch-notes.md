@@ -1,4 +1,114 @@
-﻿# Version 6.26 
+﻿<!-- 
+# Version 6.27
+Added a new upgrade for Tal'darim Adepts.
+Reduced the cost of Phoenix by 5.
+Added a new upgrade for Havocs.
+Added a new upgrade for Stalkers.
+Increased the Health of Thor by 100.
+Nerfed Liberator ground damage versus non armored by 5.
+Tal'darim Spire cost reduced by 50.
+Nerfed Liberator air damage by one.
+Liberators now deal 4 more damage to light units in air mode.
+Elite Medics heal now consumes less energy.
+Reduced Diamondback health by 15.
+Added 2 new upgrades for Diamondbacks.
+Send Nydus Worm has now a starting cooldown of 5 minutes.
+Send Omega Worm has now a starting cooldown of 10 minutes.
+Less Screen shake from the send abilities.
+Reduced Scout Select Priority so you can use Phoenix ability when you have both selected.
+Reduced Alarak armor by one and shields armor by one and increased the max charges of "Upgrade Alarak's Armor and Regen" by one.
+Reduced the cost of Sky Fury for Mengsk by 25 minerals.
+Enabled the ping panel.
+Playing in Solo Mode will give you 1000 starting minerals from 400.
+Increased the damage of Archangel against air units.
+In CO-OP/Solo mode the base now has a cap on how many units it can have at once.
+Yagdra now will attack the base in SOLO/Co-op mode.
+Hatchery cost increased by 5.
+The two nydus worms event will now spawn randomly.
+Reduced Disruptor supply from 4 to 3.
+Reduced Reaver supply from 6 to 4.
+Reduced Soul Absorption upgrade from +5 HP and +5 Shields to +2.5 HP  and +2.5 Shields and added one more charge.
+Reduced Colossus Damage by 5 , increased Colossus damage by 5 vs Light (Same dmg vs light like it has right now).
+Adept cost reduced 35->30.
+Reduced the cost of Tempest Upgrade.
+Reduced the cost of Raven 120->100.
+Reduced the cost of Battlecruiser 325->300.
+Reduced the cost of Viking 90->85.
+The Improved Colossus Design reduces health by 75 from 50.
+Medic cost reduced to 30 from 35.
+Dark Templar cost reduced 100->90.
+Tal'darim Berseker cost reduced from 70 to 60.
+Blood Hunter Cost reduced from 125 to 110.
+Wrathwalker cost reduced from 225 to 220.
+Tal'darim Gateway cost reduced from 175 to 150.
+Tal'darim Photon Cannon health and shields increased by 50.
+Mengsk income comes now each 20 seconds from 10.
+Mengsk starting income doubled.
+Mengsk upgrade to make income come faster now reduces the time taken by 2 seconds from 1 , has reduced cost 250->100 and has 8 charges from 5 and the cost gets increased by 100 for each upgrade instead of getting doubled.
+Fixed a bug regarding the name of Mothership Passive.
+Tal'darim Adept Upgrade cost has been reduced to 150 from 300.
+Both Upgrades for Supplicants had their cost reduced by 25.
+Pylon and Supply Depot cost has been reduced.
+Alerts about "An ally is under attack" have been removed.
+Hercules Event in CO-OP now drops units with 1 second faster.
+Supply Depots will now get attacked instead of being ignored , this doesn't apply to lowered depots.
+New map
+Added Easy Difficulty.
+In Easy difficulty events happen less often and all basic incoming zerg have reduced hp.
+Modified all ranks in game , now it will feel smoother to reach new ranks.
+Enabled replays, tell me in discord if I should disable them again if you experience less fps.
+Added 2 turrets in front of the Planetary Fortress.
+Modified terran activate the base
+Tal'darim Spire costs more for each unit made for the wave.
+Tal'darim Spire awards on death 250 minerals from 50.
+Increased Firebat Health by 25.
+Reduced the HP gained by the Elite Firebat Upgrade by 25 (So basically the same because the normal one got buffed).
+Reduced the cost of Faster Mineral Income by 100.
+Reduced the cost scaling of Faster Mineral Income by 50.
+The Planetary Fortress won't die for 20 seconds from 10 seconds after throwing everything it has.(CO-OP/Solo)
+Increased the cost scaling of Blood Blade CD by 25.
+Reduced the Speed of Troopers by 0.1.
+Mengsk starts with 25 energy from 50.
+Buffed Mengsk Energy regen with 0,02 at the start.
+Upgraded Troopers now give more kill reward.
+Reduced the Supply Taken by Photon Cannons by one.
+Hercules is no longer selected by F2.
+When an ally leaves you are getting instantly 50 supplies made now.
+Fixed a bug happening with all factions when a player leaves on Team 1.
+Lurker Den requires now Lair to be made.
+Auto Nydus Worm kill reward from 125 to 250.
+Auto Greater Nydus Worm kill reward from 125 to 750.
+Warp Acceleration now reduces the cooldown of respawning Alarak by less time.
+Nydus worms spawned by events or sent by players by abilities now take 5 more seconds to reload.
+Added Wraith upgrade back, it's behind the liberator upgrade so you have to research that first.
+Added Observer Speed Upgrade.
+Spore Crawlers now give minerals on death.
+Spine Crawlers now give minerals on death.
+Reduced the cost of upgrades from Ultralisk Cavern.
+Reduced the cost of upgrades from Spawning Pool.
+Reduced the cost of upgrades from Roach Warren.
+Reduced the cost of upgrades from Baneling Nest.
+Reduced the cost of upgrades from Hydralisk Den.
+Reducest the cost of upgrades from Spire.
+Reduced the cost of the Magma Carapace Upgrade.
+Reduced the cost of Upgrade Zerg Defensive Structure.
+Increased the cost of Bio-Mechanical Transfusion upgrade.
+Increased the cost of Corpsers.
+Increased the cost of Interceptors.
+Reduced the cost of Infestors.
+Reduced the cost of Zerglings,Roaches and Hydralisks.
+Hatcheries larva spawn nerfed by 5 seconds.
+Reduced the health of Mengsk Siege Tanks by 50.
+Reduced the health of Earthsplitter Ordnance by 100.
+The defensive upgrade for Earthsplitter Ordnance adds 200 health to them aswell.
+Increased Mothership base damage to 20 from 12.
+Mengsk Bunker Salvage ability gives 75% minerals instead of 100%.
+Increased the kill reward of Greater Spires.
+Changed the upgrade for insta nukes for Mengsk Ghosts.
+Tempests now deal bonus damage versus Massive with it's air attack.
+ -->
+
+# Version 6.26 
 (on NA merged with 6.25)
 More balance changes.
 
