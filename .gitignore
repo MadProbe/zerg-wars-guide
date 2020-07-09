@@ -3,3 +3,4 @@ dev/_server/cert/cert.*
 package-lock.json
 start.ps1
 .vscode
+.private
