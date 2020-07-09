@@ -33,8 +33,10 @@ const handler = (request, response) => {
 				}
 				return;
 			}
-			response.setHeader('Content-Type', mime_types.lookup(file) || 'text/plain');
+			var mime = mime_types.lookup(file) || 'text/plain';
+			response.setHeader('Content-Type', mime);
 			response.setHeader('Vary', 'Accept-Encoding');
+			response.setHeader('Connection', 'keep-alive')
 			/**
 			 * @param {any} err
 			 */
@@ -52,19 +54,21 @@ const handler = (request, response) => {
 						}
 					}
 				};
-			if (/\bdeflate\b/.test(acceptEncoding)) {
-				response.writeHead(200, { 'Content-Encoding': 'deflate' });
-				pipeline(raw, zlib.createDeflate(), response, onError);
-			} else if (/\bgzip\b/.test(acceptEncoding)) {
-				response.writeHead(200, { 'Content-Encoding': 'gzip' });
-				pipeline(raw, zlib.createGzip(), response, onError);
-			} else if (/\bbr\b/.test(acceptEncoding)) {
-				response.writeHead(200, { 'Content-Encoding': 'br' });
-				pipeline(raw, zlib.createBrotliCompress(), response, onError);
-			} else {
-				response.writeHead(200);
-				pipeline(raw, response, onError);
+			if (mime.startsWith('text/') || mime.startsWith('application/')) {
+				if (/\bdeflate\b/.test(acceptEncoding)) {
+					response.writeHead(200, { 'Content-Encoding': 'deflate' });
+					pipeline(raw, zlib.createDeflate(), response, onError);
+				} else if (/\bgzip\b/.test(acceptEncoding)) {
+					response.writeHead(200, { 'Content-Encoding': 'gzip' });
+					pipeline(raw, zlib.createGzip(), response, onError);
+				} else if (/\bbr\b/.test(acceptEncoding)) {
+					response.writeHead(200, { 'Content-Encoding': 'br' });
+					pipeline(raw, zlib.createBrotliCompress(), response, onError);
+				}
+				return;
 			}
+			response.writeHead(200);
+			pipeline(raw, response, onError);
 		});
 	} else {
 		response.writeHead(404, { 'Content-Type': 'text/html' });
