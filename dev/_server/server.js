@@ -1,6 +1,6 @@
 // @ts-check
 const https = require("https"),
-	http = require("http"), 
+	http = require("http"),
 	mime_types = require("mime-types"),
 	zlib = require("zlib"),
 	config = require("./config.js"),
@@ -8,9 +8,10 @@ const https = require("https"),
 	pipeline = require("stream").pipeline,
 	URL = require("url").URL,
 	join = require("path").join,
-	_404Location = join(__dirname, '_404.html'),
-	_500Location = join(__dirname, '_500.html'),
-	root = join(__dirname, '..', '..');
+	$404 = fs.readFileSync(join(__dirname, '_404.html')),
+	$500 = fs.readFileSync(join(__dirname, '_404.html')),
+	root = join(__dirname, '..', '..'),
+	{ port = 8080 } = config;
 /**
  * @param {import('http').IncomingMessage} request
  * @param {import('http').ServerResponse} response
@@ -25,10 +26,10 @@ const handler = (request, response) => {
 				if (e.code !== 'ENOENT') {
 					console.error('\x1b[31m[ERROR]\x1b[0m', `Can't access "${file}" file!`);
 					response.writeHead(500, { 'Content-Type': 'text/html' });
-					fs.createReadStream(_500Location).pipe(response);
+					response.end($500);
 				} else {
 					response.writeHead(404, { 'Content-Type': 'text/html' });
-					fs.createReadStream(_404Location).pipe(response);
+					response.end($404);
 				}
 				return;
 			}
@@ -41,12 +42,11 @@ const handler = (request, response) => {
 				raw = fs.createReadStream(file),
 				onError = err => {
 					if (err) {
-						if (response.writableLength !== 0 || response.writableEnded) {
-							response.end();
+						if (response.writableEnded || (response.writableLength !== 0, response.end(), true)) {
 							console.error('\x1b[31m[ERROR]\x1b[0m', err);
 						} else {
 							try {
-								fs.createReadStream(_500Location).pipe(response);
+								response.end($500);
 							} catch (e) { }
 							console.error('\x1b[31m[ERROR]\x1b[0m', `Can't read "${file}" file!`);
 						}
@@ -68,11 +68,11 @@ const handler = (request, response) => {
 		});
 	} else {
 		response.writeHead(404, { 'Content-Type': 'text/html' });
-		fs.createReadStream(_404Location).pipe(response);
+		response.end($404);
 	}
 };
 https.createServer({
 	cert: fs.readFileSync(join(__dirname, 'cert', 'cert.pem')),
 	key: fs.readFileSync(join(__dirname, 'cert', 'cert.key'))
-}, handler).listen(config.port || 8080, () => console.log(`Server has started on https://localhost:${config.port || 8080}!`));
+}, handler).listen(port, () => console.log(`Server has started on https://localhost:${port}!`));
 http.createServer(handler).listen(80);
