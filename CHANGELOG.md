@@ -5,7 +5,7 @@ Animated WEBP image format is more compact than normal gifs (3x+ animated images
 Navigation bar links are more bright now.
 Fix theme switching not remembering current page theme.
 Added links for versions to their corresponding branches on github.
-Page theme is now toggled correctly.
+Page's theme is now toggled correctly.
 
 # [Version 1.0.0](https://github.com/MadProbe/zerg-wars-guide/tree/1.0.0)
 Release!!!
