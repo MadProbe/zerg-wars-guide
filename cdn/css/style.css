@@ -37,11 +37,11 @@
 }
 
 .sun {
-    background: url(/cdn/img/sun.webp);
+    background: url(../img/sun.webp);
 }
 
 .moon {
-    background: url(/cdn/img/moon.webp);
+    background: url(../img/moon.webp);
 }
 
 html, body {
