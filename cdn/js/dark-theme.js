@@ -1,5 +1,4 @@
-// @ts-check
-((window, document, localStorage, key, _theme_enabled) => {
+((document, localStorage, key, _theme_enabled) => {
     var state = localStorage.getItem(key) !== "false";
     var querySelector = document.querySelector.bind(document);
     var classList = querySelector('html').classList;
@@ -35,4 +34,4 @@
         }
         button.onclick = _ => setTheme(state = !state);
     }
-})(this, document, localStorage, "dark-theme", " Theme Enabled")
+})(document, localStorage, "dark-theme", " Theme Enabled")
