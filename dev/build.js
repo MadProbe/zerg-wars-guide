@@ -47,9 +47,9 @@ exec('npm run css-build', { cwd }, error => {
         console.error(`An error occurred while building bulma files:\n`, error);
     } else {
         console.log('Minifing code...');
-        const bulmaCSSCode = readFileSync(join(cwd, 'cdn', 'css', 'bulma.css'), 'utf-8');
+        const bulmaCSSCode = readFileSync(join(cwd, 'cdn', 'css', '_bulma.css'), 'utf-8');
         const minifiedBulmaCSSCode = minify(bulmaCSSCode, cssMinifyOptions).css;
-        writeFileSync(join(cwd, 'cdn', 'css', 'bulma.min.css'), minifiedBulmaCSSCode);
+        writeFileSync(join(cwd, 'cdn', 'css', '_bulma.min.css'), minifiedBulmaCSSCode);
         const darkThemeCSSCode = readFileSync(join(cwd, 'cdn', 'css', 'dark-theme.css'), 'utf-8');
         const minifiedDarkThemeCSSCode = minify(darkThemeCSSCode, cssMinifyOptions).css;
         writeFileSync(join(cwd, 'cdn', 'css', 'dark-theme.min.css'), minifiedDarkThemeCSSCode);
