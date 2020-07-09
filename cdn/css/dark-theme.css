@@ -14,12 +14,12 @@
     color: #ddd;
 }
 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark strong, .dark table th {
+.dark h1, .dark h2, .dark strong/*, .dark h3, .dark h4, .dark h5, .dark h6, .dark table th*/ {
     color: #fff !important;
 }
 
 .dark .navbar-menu {
-    background-color: transparent !important;
+    background: transparent !important;
 }
 
 .dark .navbar {
@@ -27,7 +27,7 @@
     color: #fff;
 }
 
-.dark .navbar .navbar-brand>.navbar-item, .dark .navbar .navbar-brand .navbar-link {
+/* .dark .navbar .navbar-brand>.navbar-item, .dark .navbar .navbar-brand .navbar-link {
     color: #fff;
 }
 
@@ -42,7 +42,7 @@
 
 .dark .navbar .navbar-burger {
     color: #fff;
-}
+} */
 
 .dark .navbar-dropdown, .dark .navbar-link.is-active, .dark .navbar-link:focus, .dark .navbar-link:focus-within, .dark .navbar-link:hover, .dark a.navbar-item.is-active, .dark a.navbar-item:focus, .dark a.navbar-item:focus-within, .dark a.navbar-item:hover {
     background-color: transparent !important;
