@@ -1,5 +1,6 @@
-﻿<!-- 
-# Version 6.27
+﻿# Version 6.27
+
+> *This patch is not ready yet although there is already a lot of changes*
 Added a new upgrade for Tal'darim Adepts.
 Reduced the cost of Phoenix by 5.
 Added a new upgrade for Havocs.
@@ -94,7 +95,7 @@ Reduced the cost of the Magma Carapace Upgrade.
 Reduced the cost of Upgrade Zerg Defensive Structure.
 Increased the cost of Bio-Mechanical Transfusion upgrade.
 Increased the cost of Corpsers.
-Increased the cost of Interceptors.
+Increased the cost of Interceptors. 
 Reduced the cost of Infestors.
 Reduced the cost of Zerglings,Roaches and Hydralisks.
 Hatcheries larva spawn nerfed by 5 seconds.
@@ -106,7 +107,105 @@ Mengsk Bunker Salvage ability gives 75% minerals instead of 100%.
 Increased the kill reward of Greater Spires.
 Changed the upgrade for insta nukes for Mengsk Ghosts.
 Tempests now deal bonus damage versus Massive with it's air attack.
- -->
+Psi Storm has a new upgrade, "Surge". (The High Templar's Psionic Storm's radius is increased by 50%, range increased by 2, and restores 50 shields to friendly units in the target area.)
+High Templar has new researchable ability, "Psionic Hex". (Sets a hex on the target unit, granting it invulnerability for 7 seconds. Afterwards, its life is transformed into energy for the High Templar. Target must have under 150 health.)
+Playing in Solo Mode will give you 1000 starting minerals from 400.
+Increased the damage of Archangel against air units.
+Yagdra now will attack the base in SOLO/Co-op mode.
+Hatchery cost increased by 5.
+The two nydus worms event will now spawn randomly.
+Reduced Disruptor supply from 4 to 3.
+Reduced Reaver supply from 6 to 4.
+Reduced Soul Absorption upgrade from +5 HP and +5 Shields to +2.5 HP  and +2.5 Shields and added one more charge.
+Reduced Colossus Damage by 5 , increased Colossus damage by 5 vs Light (Same dmg vs light like it has right now).
+Adept cost reduced 35->30.
+Reduced the cost of Tempest Upgrade.
+Reduced the cost of Raven 120->100.
+Reduced the cost of Battlecruiser 325->300.
+Reduced the cost of Viking 90->85.
+The Improved Colossus Design reduces health by 75 from 50.
+Medic cost reduced to 30 from 35.
+Dark Templar cost reduced 100->90.
+Tal'darim Berseker cost reduced from 70 to 60.
+Blood Hunter Cost reduced from 125 to 110.
+Wrathwalker cost reduced from 225 to 220.
+Tal'darim Gateway cost reduced from 175 to 150.
+Tal'darim Photon Cannon health and shields increased by 50.
+Mengsk income comes now each 20 seconds from 10.
+Mengsk starting income doubled.
+Mengsk upgrade to make income come faster now reduces the time taken by 2 seconds from 1 , has reduced cost 250->100 and has 8 charges from 5 and the cost gets increased by 125 for each upgrade instead of getting doubled.
+Fixed a bug regarding the name of Mothership Passive.
+Tal'darim Adept Upgrade cost has been reduced to 150 from 300.
+Both Upgrades for Supplicants had their cost reduced by 25.
+Pylon and Supply Depot cost has been reduced.
+Alerts about "An ally is under attack" have been removed.
+Hercules Event in CO-OP now drops units with 1 second faster.
+Supply Depots will now get attacked instead of being ignored , this doesn't apply to lowered depots.
+Added Defiler to Zerg AI
+Replaced Stalker Upgrade with Blink Shield Restore (Restores up to  80 shields after blinking)
+Replaced Zealot Upgrade with Shadow Charge (Zealot is cloaked and ignores collision while charging. After charging, attack and movement speed are increased by 50% for 5 seconds)
+Mothership now acts as a power source and can warp in Elite Zealots and Elite Stalkers
+Adept's Psionic Transfer time has been reduced from 10 to 1 (It is now much easier to micro Adepts)
+Adept has a new upgrade available, "Shockwave" (Whenever the Adept's attack kills an enemy, a shockwave hits 2 nearby enemy units, dealing full attack damage)
+High Templar and Archons now share the same subgroup
+Added a new upgrade for Tal'darim Adepts.
+Reduced the cost of Phoenix by 5.
+Added a new upgrade for Havocs.
+Added a new upgrade for Stalkers.
+Increased the Health of Thor by 100.
+Nerfed Liberator ground damage versus non armored by 5.
+Reduced the damage versus light of Siege Tanks by 5.
+Reduced the damage versus light of Mengsk Siege Tanks by 5.
+Tal'darim Spire cost reduced by 50.
+Nerfed Liberator air damage by one.
+Liberators now deal 4 more damage to light units in air mode.
+Elite Medics heal now consumes less energy.
+Reduced Diamondback health by 15.
+Added 2 new upgrades for Diamondbacks.
+Send Nydus Worm has now a starting cooldown of 5 minutes.
+Send Omega Worm has now a starting cooldown of 10 minutes.
+Less Screen shake from the send abilities.
+Reduced Scout Select Priority so you can use Phoenix ability when you have both selected.
+Reduced Alarak armor by one and shields armor by one and increased the max charges of "Upgrade Alarak's Armor and Regen" by one.
+Reduced the cost of Sky Fury for Mengsk by 25 minerals.
+Enabled the ping panel.
+Reduced the damage of Lurkers by 5 and increased the damage of lurkers vs light by 5.
+In game bots no longer have vision voting or difficulty.
+Added a new command , named -Handles. Displays the handles of all players in game.
+Changed the Terran Base in Solo/Coop
+Added Marauders , Goliaths and Hellbats to add more diversity to the defensive line of the Terran Base.
+The Terran Base will now send an air wave to attack the Zerg every time it does a decision.
+Zerg Units now attack on a random point instead of a fixed point.
+Added 2 new units attacking zerg can go for.
+Zerg will now send more special units.
+Added a backup in case Tal'darim Gateway units get stuck.
+Reduced the health of Hunterlings to 300.
+Reduced the cost of Mengsk Starport and Fusion Core.
+Increased cost of Mengsk Battlecruiser by 100 gas.
+Changed the cost of Imperial Witness , now costs 25 more gas and 25 less minerals.
+Doubled the kill reward of Enthralled Zerg for Mengsk.
+Now you can repair odin.
+Increased the kill reward of all units the terran base has in CO-OP/Solo.
+Increased the time Hyperion stays on the field for both the ability and when the Terran Base uses it.
+Zergling upgrade that makes zerglings reduce armor to 0 applies for shields aswell now.
+Changed reinforce base upgrades a bit.
+Infested Marines now award bounty.
+Increased the cooldown of Consumption for infestors to 30 seconds from 10.
+Reduced the health of Goliaths to 90 from 105.
+Increased the number of Bersekers needed to purchase Blood hunters to 5 from 3.
+Increased the number of Blood Hunters needed to purchase Ascendants to 5 from 3.
+Increased the number of Ascendants needed to purchase Vanguards to 5 from 3.
+Increased the number of Vanguards needed to purchase Wrathwalkers to 5 from 3.
+Strains and new types of units will appear faster for the Zerg Swarm.
+Reduced the time taken to train an Aegis Guard to 25 seconds from 30.
+Reduced the time taken to train an Emperor's Shadow to 35 seconds from 40.
+Omega Worm is no longer detector.
+Reduced the attackspeed of Alarak's Mothership by 2.
+Defensive Protocols now makes Alarak's Mothership attack 4 times faster from 3.
+Reduced the Health of Gorgon by 1000.
+Reduced the cost of Siege tanks to 250.
+Brood Lord cost reduced to 380 from 400.
+Devourer cost reduced to 135 from 150.
 
 # Version 6.26 
 (on NA merged with 6.25)
