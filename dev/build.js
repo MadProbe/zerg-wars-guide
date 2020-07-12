@@ -3,10 +3,10 @@ const { join, extname } = require("path");
 const { readFileSync, writeFileSync } = require("fs");
 const { minify } = require("csso");
 const { minify: htmlMinify } = require("html-minifier");
-const LooseMarkdown = require('./md.js');
+const LooseMarkdown = require('./markdown.js');
 const { transformSync } = require('@babel/core');
-
 const $cache = new Map;
+const $jsminCache = new Map;
 const cwd = join(__dirname, '..');
 const toBuildDir = join(__dirname, '_to_build');
 const cssMinifyOptions = {
@@ -61,10 +61,11 @@ exec('npm run css-build', { cwd }, error => {
 function transformHMTL(code) {
     return code.replace(/<include\s+src\s*=\s*"(.+)"(\s+(?:\w+(?:\s*=\s*"([^>"]+)")?))*>\s*<\/include>/g, (_, path, attrs) => {
         path = join(cwd, path);
-        if (!$cache.has(path)) {
-            $cache.set(path, readFileSync(path, 'utf8'));
+        let read = $cache.get(path);
+        if (!read) {
+            $cache.set(path, read = readFileSync(path, 'utf8'));
+            $jsminCache.delete(path);
         }
-        const read = $cache.get(path);
         switch (extname(path).slice(1)) {
             case "md":
                 return LooseMarkdown(read);
@@ -74,12 +75,16 @@ function transformHMTL(code) {
 
             case "mjs":
             case "js":
-                return `<script${attrs ? (attrs.startsWith(' ') ? attrs : (' ' + attrs)) : ''}>${transformSync(read, {
-                    presets: [['minify', {
-                        builtIns: false
-                    }]],
-                    plugins: ['@babel/plugin-proposal-class-properties']
-                }).code}</script>`
+                var min = $jsminCache.get(path);
+                if (!min) {
+                    $jsminCache.set(path, min = transformSync(read, {
+                        presets: [['minify', {
+                            builtIns: false
+                        }]],
+                        plugins: ['@babel/plugin-proposal-class-properties']
+                    }).code);
+                }
+                return `<script${attrs ? (attrs.startsWith(' ') ? attrs : (' ' + attrs)) : ''}>${min}</script>`
 
             default:
                 return read;
