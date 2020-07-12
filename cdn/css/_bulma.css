@@ -186,7 +186,7 @@
   /* .content p:not(:last-child), */
   /* .content dl:not(:last-child), */
   .content ol/*:not(:last-child)*/,
-  .content ul/*:not(:last-child)*/,
+  .content ul/*:not(:last-child)*//*,
   .content blockquote/*:not(:last-child)*/ /* removed since there is no el ending with these*/
   /*, .content pre:not(:last-child),
   .content table:not(:last-child) */

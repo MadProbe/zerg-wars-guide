@@ -11,6 +11,11 @@
 
 /* nav link arrow */
 
+blockquote {
+    border-left: solid 3px white;
+    padding-left: 5px;
+}
+
 .navbar-link/*:not(.is-arrowless)*/::after {
     border: 3px solid transparent;
     border-radius: 2px;
