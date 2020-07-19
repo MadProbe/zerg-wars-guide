@@ -40,6 +40,8 @@ console.log('Building taldarim.html');
 buildHTML(join(toBuildDir, 'taldarim.html'), join(cwd, 'taldarim.html'), join(cwd, 'index.html'));
 console.log('Building terran.html');
 buildHTML(join(toBuildDir, 'terran.html'), join(cwd, 'terran.html'));
+console.log('Building guide.html');
+buildHTML(join(toBuildDir, 'guide.html'), join(cwd, 'guide.html'));
 console.log(`Started building css files...`);
 exec('npm run css-build', { cwd }, error => {
     console.log(`Building bulma...`);
