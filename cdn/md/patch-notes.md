@@ -1,6 +1,49 @@
-﻿# Version 6.27
+﻿# Version 7.7 (3.7)
+Added a new boss to the game.
+There is no longer a chance for a boss to not come at all.
+Game ends 2 seconds slower so people have time to say GG in chat after Planetary dies.
+Removed the old photos from the game description and added a new one.
+Fixed bugs regarding the Zerg Spawning Area.
+Fixed some typos.
+Corruptors will now use their ability.
+Elite Reapers are slower now.
+Reduced the cost of Tal'darim Gateway upgrade by 25.
+The Terran base in Solo/Co-op now increases their drop pods amount of units slower but have a higher max.
+Warp Prism cost reduced to 75 from 100.
+Reduced the cost of Stalkers to 30 from 35.
+Hyperion can't be stunned anymore.
+Stalker life armor reduced by one , shields armor increased by one.
+Stanks fall from the sky event happens for both teams at once now.
+Fixed Wins in CO-OP/Solo.
+Reduced the cost of Tal'darim Photon Cannon by 10.
+Reduced the cost of Tal'darim Pylons by 10.
+The Drakken Laser Drill should be killable while building.
+The Drakken Laser Drill shouldn't rebuild anymore when killed unless the base goes for that descision again.
+Reduced the cost of Mengsk Starport by 25 minerals.
+Reduced the cost of Khaydarin Monolith to 200 from 225.
+Increased the Supply Khaydarin Monoliths use to 6 from 5.
+Reduced the kill reward for killing Khaydarin Monoliths to 50 from 100.
+Increased the minerals you get at the start in Solo mode to 1200 from 1000.
 
-> *This patch is not ready yet although there is already a lot of changes*
+# Version 7.6 (3.6)
+Bug fixes
+
+# Version 7.5 (3.5)
+CO-OP and Solo wins are now being saved to be used for later.
+-Wins now displays your wins on the gamemode you are playing
+Skins now are applied to the gamemode you are playing , so you need 10 Wins on the gamemode you are playing to have skins on that action.(Terran,Zerg,Protoss)
+Fixed some typos on the Tal'darim Spire.
+Fixed Elite Ghost unlimited range bug.
+Removed Elite Ghost cloak.
+Increased Elite Ghost health from 40 to 100.
+Decreased Elite ghost kill reward from 60 to 20.
+Changed Hercules event a bit in Solo/Co-op
+
+# Version 7.1 - 7.4 (3.1 - 3.4)
+Quick fixes to bugs that appeared from this patch.
+
+# Version 7.0 (3.0)
+
 ## [Game]
 New map
 Added Easy Difficulty.
@@ -32,8 +75,23 @@ Infested Marines now award bounty.
 Added 2 new units attacking zerg can go for.
 Zerg will now send more special units.
 Reduced the health of Hunterlings to 300.
+All drop pods send abilities got changed to be slower but to last longer even to a minute.
+Lesser Swarm Pods event now happens for both teams at once.
+Reduced the units that come from the Special Infested event.
+Added a Stank to the special infested event.
+Added Greater Drop Pods Event.
+Changed the objectives to help new players more.
+Increased the kill bounty of Archangel.
+Increased the kill bounty of Odin.
+Increased the kill bounty of Gorgon Battlecruiser.
+Added one more new event for Apocalypse.
+Changed the upgrade for Stank and Leviathan.
+Repair on auto cast now repairs only nearby structures.
+Added How to Play on F12 and info about ranks.
+Fixed bugs regarding Thrashers and Yagdra
 
 ## [Solo/Coop]
+Last stand for Planetary Fortress in CO-OP/Solo now spawns more units and nukes more.
 Reduced the Health of Gorgon by 1000.
 Changed the Terran Base.
 Added Marauders, Goliaths and Hellbats to add more diversity to the defensive line of the Terran Base.
@@ -125,6 +183,7 @@ Reduced the cost scaling of Faster Mineral Income by 50.
 Added Wraith upgrade back, it's behind the liberator upgrade so you have to research that first.
 Reduced the cost of Siege tanks to 250.
 Reduced the health of Goliaths to 90 from 105.
+Elite ghost added
 
 ## [Protoss]
 Reduced the cost of Phoenix by 5.
