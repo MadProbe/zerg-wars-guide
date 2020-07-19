@@ -1,4 +1,7 @@
-﻿# Version 7.7 (3.7)
+﻿# Version 7.8 (3.8)
+Hopefully fixed broodlings respawning on death (Basically multiplying endlessly)
+
+# Version 7.7 (3.7)
 Added a new boss to the game.
 There is no longer a chance for a boss to not come at all.
 Game ends 2 seconds slower so people have time to say GG in chat after Planetary dies.

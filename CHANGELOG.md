@@ -1,4 +1,8 @@
-# [Version 1.1.0](https://github.com/MadProbe/zerg-wars-guide)
+# [Version 1.2.0](https://github.com/MadProbe/zerg-wars-guide)
+Moved Richy's guide to different page (and got 70% speedup on other pages + 99% less network bytes transfered)
+Added patch notes from version 7.0 to 7.8
+
+# [Version 1.1.0](https://github.com/MadProbe/zerg-wars-guide/tree/1.1.0)
 Greatly reduced page size by replacing font-awensome font icons by images with ~200 bytes size 
 (Total page size is reduced by 83.9 kilobytes and page loads twice faster (or more on slow connections)).
 Animated WEBP image format is more compact than normal gifs (3x+ animated images size reduction).
