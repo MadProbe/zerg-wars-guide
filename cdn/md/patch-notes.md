@@ -544,33 +544,3 @@ Reduced the cost of the Reduce Cooldown for Structure Overcharge Upgrade.
 Reduced the cost for Warp Acceleration Upgrade.
 
 Don't forget to join our [Discord](https://discord.gg/mXepC6P)!
-
-
-<!-- 
-
-Playing in Solo Mode will give you 1000 starting minerals from 400.
-Increased the damage of Archangel against air units.
-Yagdra now will attack the base in SOLO/Co-op mode.
-Hatchery cost increased by 5.
-The two nydus worms event will now spawn randomly.
-Reduced Disruptor supply from 4 to 3.
-Reduced Reaver supply from 6 to 4.
-Reduced Soul Absorption upgrade from +5 HP and +5 Shields to +2.5 HP  and +2.5 Shields and added one more charge.
-Reduced Colossus Damage by 5 , increased Colossus damage by 5 vs Light (Same dmg vs light like it has right now).
-Adept cost reduced 35->30.
-Reduced the cost of Tempest Upgrade.
-Reduced the cost of Raven 120->100.
-Reduced the cost of Battlecruiser 325->300.
-Reduced the cost of Viking 90->85.
-The Improved Colossus Design reduces health by 75 from 50.
-Medic cost reduced to 30 from 35.
-Dark Templar cost reduced 100->90.
-Tal'darim Berseker cost reduced from 70 to 60.
-Blood Hunter Cost reduced from 125 to 110.
-Wrathwalker cost reduced from 225 to 220.
-Tal'darim Gateway cost reduced from 175 to 150.
-Tal'darim Photon Cannon health and shields increased by 50.
-Mengsk income comes now each 20 seconds from 10.
-Mengsk starting income doubled.
-Mengsk upgrade to make income come faster now reduces the time taken by 2 seconds from 1 , has reduced cost 250->100 and has 8 charges from 5 and the cost gets increased by 125 for each upgrade instead of getting doubled.
-Fixed a bug regarding the name of Mothership Passive. -->
