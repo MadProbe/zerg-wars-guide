@@ -44,7 +44,7 @@
     color: #fff;
 } */
 
-.dark .navbar-dropdown, .dark .navbar-link.is-active, .dark .navbar-link:focus, .dark .navbar-link:focus-within, .dark .navbar-link:hover, .dark a.navbar-item.is-active, .dark a.navbar-item:focus, .dark a.navbar-item:focus-within, .dark a.navbar-item:hover {
+.dark .navbar-dropdown, .dark .navbar-dropdown:hover, .dark .navbar-dropdown:focus, .dark .navbar-dropdown a:hover, .dark .navbar-dropdown a:focus, .dark .navbar-dropdown a:focus-within, .dark .navbar-link.is-active, .dark .navbar-link:focus, .dark .navbar-link:focus-within, .dark .navbar-link:hover, .dark a.navbar-item.is-active, .dark a.navbar-item:focus, .dark a.navbar-item:focus-within, .dark a.navbar-item:hover {
     background-color: transparent !important;
 }
 
@@ -52,7 +52,7 @@
     .dark .navbar .navbar-start>.navbar-item, .dark .navbar .navbar-start .navbar-link, .dark .navbar .navbar-end>.navbar-item, .dark .navbar .navbar-end .navbar-link {
         color: #fff;
     }
-    .dark .navbar .navbar-start>a.navbar-item:focus, .dark .navbar .navbar-start>a.navbar-item:hover,/* .dark .navbar .navbar-start>a.navbar-item.is-active, */.dark .navbar .navbar-start .navbar-link:focus, .dark .navbar .navbar-start .navbar-link:hover, .dark .navbar .navbar-start .navbar-link.is-active, .dark .navbar .navbar-end>a.navbar-item:focus, .dark .navbar .navbar-end>a.navbar-item:hover, .dark .navbar .navbar-end>a.navbar-item.is-active, .dark .navbar .navbar-end .navbar-link:focus, .dark .navbar .navbar-end .navbar-link:hover, .dark .navbar .navbar-end .navbar-link.is-active {
+    .dark .navbar .navbar-start>a.navbar-item:focus, .dark .navbar .navbar-start>a.navbar-item:hover, .dark .navbar .navbar-start .navbar-link:focus, .dark .navbar .navbar-start .navbar-link:hover, .dark .navbar .navbar-start .navbar-link.is-active, .dark .navbar .navbar-end>a.navbar-item:focus, .dark .navbar .navbar-end>a.navbar-item:hover, .dark .navbar .navbar-end>a.navbar-item.is-active, .dark .navbar .navbar-end .navbar-link:focus, .dark .navbar .navbar-end .navbar-link:hover, .dark .navbar .navbar-end .navbar-link.is-active {
         background-color: #111;
         color: #fff;
     }
