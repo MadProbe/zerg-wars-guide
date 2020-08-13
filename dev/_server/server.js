@@ -55,12 +55,12 @@ const handler = (request, response) => {
 					}
 				};
 			if (mime.startsWith('text/') || mime.startsWith('application/')) {
-				if (/\bdeflate\b/.test(acceptEncoding)) {
-					response.writeHead(200, { 'Content-Encoding': 'deflate' });
-					pipeline(raw, zlib.createDeflate(), response, onError);
-				} else if (/\bgzip\b/.test(acceptEncoding)) {
+				if (/\bgzip\b/.test(acceptEncoding)) {
 					response.writeHead(200, { 'Content-Encoding': 'gzip' });
 					pipeline(raw, zlib.createGzip(), response, onError);
+				} else if (/\bdeflate\b/.test(acceptEncoding)) {
+					response.writeHead(200, { 'Content-Encoding': 'deflate' });
+					pipeline(raw, zlib.createDeflate(), response, onError);
 				} else if (/\bbr\b/.test(acceptEncoding)) {
 					response.writeHead(200, { 'Content-Encoding': 'br' });
 					pipeline(raw, zlib.createBrotliCompress(), response, onError);
