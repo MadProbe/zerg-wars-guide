@@ -1,6 +1,11 @@
-# [Version 1.2.0](https://github.com/MadProbe/zerg-wars-guide)
+# [Version 1.2.1](https://github.com/MadProbe/zerg-wars-guide)
+Better compability with old browsers, such as IE 11.
+Added patch notes from version 7.9 to 7.14.
+Dark/Light theme button changer icon and text now properly aligned to center.
+
+# [Version 1.2.0](https://github.com/MadProbe/zerg-wars-guide/tree/1.2.0)
 Moved Richy's guide to different page (and got 70% speedup on other pages + 99% less network bytes transfered)
-Added patch notes from version 7.0 to 7.8
+Added patch notes from version 7.0 to 7.8.
 
 # [Version 1.1.0](https://github.com/MadProbe/zerg-wars-guide/tree/1.1.0)
 Greatly reduced page size by replacing font-awensome font icons by images with ~200 bytes size 
