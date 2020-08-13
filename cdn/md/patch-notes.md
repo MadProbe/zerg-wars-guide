@@ -1,4 +1,72 @@
-﻿# Version 7.8 (3.8)
+﻿# Version 7.12 - 7.14
+This patches were quick fixes to an annoying bug that somehow wasn't fixed.
+
+# Version 7.11
+Shared Income now is 1 Mineral for a Zergling, 2 Minerals for everything else.
+Fixed for real this time Slayers/Colossus refusing to die in very rare cases, after getting the upgrade that reduces their health and shields.
+Changed some placement of the Planetary Fortress and the Devastation Turrets around it to make it easier to build there.
+Queens now can use Spawn Larvas on the Main Hive aswell.
+Increased the base armor of Devastation Turrets by 1.
+Fixed a bug with Neosteel upgrade and Shrike Turret upgrade, now it can be researched.
+Auto Turrets now last for 90 seconds from 180.m
+Raven cost increased to 110 from 100.
+Diamondback speed reduced by 0,2 to 2.75 from 2.95.
+Added Kill Reward for Hybrid Behemoths.
+Changed the kill bounty of Omega Worms (Auto included) to 500 minerals from 750.(Also fixed a bug where Omega Worms had 250 bounty).
+Spine Crawler cost increased by 15.
+Spine Crawler now attacks faster from 1.85 to 1.2.
+Units from the Tal'darim Gateway now attack each 60 seconds after they are made again so in case they are stuck, they will attack.
+Units from the Tal'darim Gateway can't be cheesed anymore into being controllable if you block them for long enough.
+Nydus Worms build slower now, from 20 seconds to 30 seconds.(From the Nydus Network).
+Lurker upgrade now works properly.
+
+# Version 7.10 (3.10)
+Fixed some of the bugs that came with the new patch for Editor and Starcraft 2 and some small changes:
+
+Reduced diamondback hp by 40 and damage vs non armored units by 5.
+Alarak no longer sacrifices elite units.
+Shield Overcharge works again.
+You get 2 minerals from 1 when any of your allies kills something.
+Fixed all send abilities for Zerg Structures.
+Flux Vanes upgrade for Void Rays no longer costs gas or take 120 seconds to make.
+Easy mode now reduces the health of all units the Attacking Zerg can get, instead of just reducing the health of the basic units.
+Hopefully fixed a bug with Slayers having a very very low chance to not die because of an upgrade.
+Lurkers no longer burrow when near cloaked units.
+Fixed Evolution Chamber upgrade spine crawlers and spore crawlers getting charges back when you rebuild the Evolution Chamber.
+Hopefully fixed the bosses health bar in Hard and Apocalypse.
+Amon Artanis Lightning Dash no longer deals damage to units in bunkers (Apocalypse Event).
+Spine Crawler and Spore Crawler upgrade applies to the uprooted versions aswell now.
+Fixed elite ghost tooltip.
+Fixed adept tooltip.
+Fixed elite stalker tooltip.
+Fixed burrowed infestor costing less than unburrowed infestor.
+Fixed burrowed swarm queen costing less than unburrowed swarm queen.
+Fixed Solar Cell's Psionic Adrenaline not being applied to Alarak.
+Solar Cell's Weapon upgrades will now reduce maximum shields and increase kill reward.
+Fixed Carrier Graviton Catapult bug.
+Tal'darim Warp Prism can't transport units made from the gateway anymore.
+
+# Version 7.9 (3.9)
+Fixed bugs with Zerg Units not getting stronger after min 30.
+All Zerg Units get stronger after min 30 now.(The units that respawn on death, not bosses or events).
+The Terran Base got buffed in Solo/Co-op in defense.
+The Terran Base sabotage nerfed in Solo Mode but buffed a bit in CO-OP.
+Last Stand buffed for the Terran Base.(Happens when the Terran Base is near death).
+Fixed a bug where using Death Fleet wouldn't do anything if the mothership wasn't owned by you.
+Reduced the health of Hercules from 300 to 250.
+Research Psionic Matrix is now on B from V.
+Bosses now can come more times per match if the match is really really long (Over 50 minutes).
+Kerrigan Boss Health increased to 4000 from 3000.
+Kerrigan Boss Energy Regen increased to 5 from 1.
+Ship Weapons Level 1,2,3 now increase Liberator Anti Ground Weapon by +3 vs non armored and by +5 vs armored from +5 vs all.
+Moved some of the Spine Crawlers and Spores in the Zerg Spawning Area.
+Send Nydus Worm and Send Greater Nydus Worm both have a starting cooldown now.
+Reduced the kill bounty of Brutalisks to 20 from 100.
+Izsha now has Izsha as a portrait.
+Havocs now increase the range of nearby non melee units by one from two.
+Havoc Permanent Cloak now works.
+
+# Version 7.8 (3.8)
 Hopefully fixed broodlings respawning on death (Basically multiplying endlessly)
 
 # Version 7.7 (3.7)
