@@ -1,4 +1,77 @@
-﻿# Version 7.12 - 7.14
+﻿# Version 7.16
+Hotfix, hopefully fixed Torrasque not dying
+
+# Version 7.15
+## Main game
+Changed Protoss Description.
+Units can now pass through the Spine Crawlers and Spore Crawlers in the Zerg Spawning Area.
+Planetary Fortress starts with 6000 Health from 5000.
+Dragging over your Terran Warp Pad or Protoss Warp Pad will now select your units instead of the Warp Pad.
+Halved the damage Hunterlings deal after they jump on a target.
+Hunterlings now have 50 less health.
+Hunterlings no longer are detectors.
+Incoming Zerg should split a bit more between left and right when they reach the Planetary Fortress.
+Hybrid Behemoth health increased to 3000 from 2000.
+Doubled the bounty of most hybrids.
+Increased the shields of the Moebius Hybrid Boss in Apocalypse by 250 to 2000 from 1750.
+Odin health reduced to 4000 from 5000.
+Archangel should attack air and ground simultaneously.
+Changed the amount of Spines and Spores at the zerg spawning area.
+
+## Coop/Solo
+Made Solo easier.
+The AI in CO-OP/Solo scales now faster.
+AI will now send late game events after 10 minutes from 8 minutes.
+
+## Terran
+Reworked Thor's ability: No longer stuns,deals half damage per second and has a casting time of 2 seconds, but lasts 4 times longer.
+Marauder cost reduced to 25 from 30 (Elite stays unchanged)
+Increased Diamondback cost to 65.
+Hyperion Yamato Cooldown to 4 seconds from 5.
+Thor attacks charge much faster.
+
+## Protoss
+Fixed a bug where Shield Overcharge started with no starting cooldown.
+Shields for the Terran Base Upgrade costs 1000 from 750 and gives double the shields now.
+Stalker attackspeed got reduced to 1.3 from 1.4 (It attacks faster).
+Zealot cost reduced to 16 from 18.
+Reaver cost reduced to 150 from 160.
+Warp Prism cost reduced to 50 from 75.
+Sentry cost reduced to 30 from 35.
+Immortal cost reduced to 90 from 95.
+Tempest cost reduced to 225 from 250.
+Reduced Mothership cost to 750 from 1000 and kill reward to 250 from 500.
+Increased Sentries Subgroup Priority. (Pretty much, now if you have sentries in your army they should appear first).
+
+## Zerg
+Fixed Lurker having more range after getting the upgrade than they should.(Not 100% sure, tell me if it's still bugged).
+Fixed Baneling(Hunter) not getting bonus speed from speed upgrade.
+Hydralisk cost reduced from 26 to 24.
+Ultralisk cost reduced to 140 from 150.
+Fixed some bugs regarding Ultralisk cost for Strains and costing minerals to burrow.
+Increased Aberration health to 300 from 275.
+
+## Tal’darim
+Fixed Death Fleet not warping Destroyers.
+Fixed a bug where Ascendants would Attack slower instead of attacking faster from elite weapons upgrades.
+Bersekers and War Prism shouldn't use the same hotkey anymore.
+Bersekers upgrade for lifesteal doesn't apply to shields anymore.
+
+## Mengsk
+Increased the Health of Mengsk Flame Trooper to 200 from 160.
+Mengsk Defensive Upgrade for EarthSplitter Ordnance cost reduced to 150 minerals from 300.
+Mengsk Starting Energy amount reduced to 20 from 25.
+Increased the cost of Sky Fury for Mengsk to 150 Minerals and 450 Might from 125 and 300.
+Increased Sky Fury health to 400 from 300.
+Sky Fury attacks faster on the ground(0,75 from 1) and has one more range.
+Sky Fury attacks faster when flying (1.5 from 2).
+Sky Fury trains faster, from 42 seconds to 25.
+Increased Emperor's Shadow cost to 400 Might from 300.
+Mengsk Artillery has one more second delay before the damage comes when it shoots, to give people a bit more time to run from when used on the offense.
+Dogs of War Aggresive costs increased to 300 minerals from 200.
+Dogs of War Deffensive cost reduced to 100 minerals and 450 might from 150 minerals and 500 might.
+
+# Version 7.12 - 7.14
 This patches were quick fixes to an annoying bug that somehow wasn't fixed.
 
 # Version 7.11
@@ -8,7 +81,7 @@ Changed some placement of the Planetary Fortress and the Devastation Turrets aro
 Queens now can use Spawn Larvas on the Main Hive aswell.
 Increased the base armor of Devastation Turrets by 1.
 Fixed a bug with Neosteel upgrade and Shrike Turret upgrade, now it can be researched.
-Auto Turrets now last for 90 seconds from 180.m
+Auto Turrets now last for 90 seconds from 180.
 Raven cost increased to 110 from 100.
 Diamondback speed reduced by 0,2 to 2.75 from 2.95.
 Added Kill Reward for Hybrid Behemoths.
