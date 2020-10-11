@@ -1,4 +1,81 @@
-﻿# Version 7.16
+﻿# Version 7.17
+## Main game
+Mineral Income upgrade reduced from 100 minerals to 95.
+Faster Mineral Income upgrade costs 200 from 300  and now increases 150 from 200 in price when you research the upgrade.
+Increased Devastation Turret damage to 30 from 25 and increased the bonus damage versus armored to 35 from 25.
+Buffed the Planetary Fortress weapon, now it deals 50 damage from 40, deals more splash damage and has a bigger radius on the splash. 
+Changed a bit the spawning position of Nyduses from events.
+Increased Elite Siege Tank damage to 35 from 25.
+Reduced the amount of Zerglings that come over time.
+Added more Mutalisks over time.
+Send Stank sabotage ability recharges faster and now is available earlier on in the game (8 minutes from 10).
+Send Leviathan and Send Apocalisk are available now earlier on in the game. (15 Minutes from 20 Minutes).
+Increased the Range of Covert Ops Siege Tanks by 2. (The siege tanks used by the Terran Base).
+Added a new event for Apocalypse difficulty.
+Added a new event in any difficulty that chooses randomly an event from Apocalypse. (Good luck)
+Siege tanks now attack faster in tank mode, each 0.8 seconds from each second. (Applies for all 3 types of siege tanks in the game: terran, mengsk and terran base)
+
+## Terran
+Terran Bunker health increased to 500 and armor to 2.
+Firebat health increased to 135 from 125.
+Reduced Advanced Targeting Systems (Battlecruiser) cost to 350 from 400.
+Increased Vikings health by 5.
+Increased the damage of thor's ability to 1500 damage over 12 seconds from 1000 damage over 12 seconds.
+Reduced the cost of Siege Tanks by 5.
+Fixed Salvage description.
+
+## Protoss
+Zealot Shadow Charge duration increased to 10 seconds from 5.
+Stalker damage increased by to 14 from 13 and the bonus damage versus armored has been increased to 6 from 5.
+Elite Stalkers and Zealots now start with 3 life and shields armor upgrades.
+Reaver push increased.
+Reavers make a scarab each 6 seconds from 8 seconds.
+Reduced max scarabs to 4 from 5.
+Increased tempest range by 2 to 12 from 10.
+Doubled tempest range versus air units.
+Phoenix ability can now be auto casted.
+Increased High Templar energy regen to 1 per second, from 0.5
+Increased Archon's shields to 400 from 350.
+
+## Zerg
+Fungal Growth now deals double damage vs armored units.
+Mutalisk cost reduced to 65 from 70.
+Mutalisks attack faster, each 1.3 seconds from 1.5 seconds.
+Reduced Ravager health to 100 from 120.
+Changed the description of Artillery Ducts upgrade for Bile Launchers.
+Reduced the cost of Zerg Mineral Income to 1000 from 2000.
+Spine Crawler bonus damage versus armored increased to 10 from 5.
+
+## Tal’darim
+Alarak now gives 300 minerals on death from 200.
+Alarak shield regeneration increased from 2 to 5. (This is out of combat)
+Wrath of the Tal'darim no longer sends units to the other side without making a new upgrade named Offensive Wrath of the Tal'darim.
+You can choose between Offensive WotT or Defensive WotT, the latter being 4x faster building units instead of 2x and offensive is to send units to the enemy side aswell for each unit made on your side. (Pretty much I split it into two upgrades and you can only choose one).
+Increased the starting cost of the Tal'darim Gateway upgrade to 150 from 125.
+Tal'darim Spire starting cost decreased to 300 from 400.
+Increased Tal'darim Photon Cannon supply to 3 from 2.
+Increased Tal'darim Photon Cannon range to 7 from 6.
+Increased Tal'darim Photon Cannon kill bounty by 5.
+Added a new upgrade for Tal'darim that buffs the Terran Base.
+Fixed Wrath of the Tal'darim behaviour description.
+
+## Mengsk
+Mengsk Ghost kill bounty increased to 150 from 75.
+Mengsk Ghost life decreased to 150 from 200.
+Mengsk Ghost Irradiate range decreased to 8 from 10.
+Mengsk Ghost Nuke range decreased to 10 from 12.
+Mengsk Battlecruiser Yamato Cannon now deals half damage versus structures.
+Mengsk Battlecruiser attacks faster each 0,2 seconds from each 0,225 seconds.
+Increased Mengsk's Marauder armor to 2 from 1.
+Reduced Mengsk Thor cost by 25 Minerals.
+Reduced Mengsk Thor train time to 45 from 60.
+Reduced Mengsk Thor repair time to 45 seconds from 60. (That means you repair it faster).
+Increased Mengsk Thor damage versus ground to 40x2 from 35x2.
+Mengsk Ghost now attacks faster, each 1.25 seconds from each 1.5 seconds.
+Changed Mengsk Battlecruiser TP description.
+Sky Fury (Fighter Mode) now has 400 health like the Assault Mode version of it.
+
+# Version 7.16
 Hotfix, hopefully fixed Torrasque not dying
 
 # Version 7.15
@@ -44,7 +121,7 @@ Reduced Mothership cost to 750 from 1000 and kill reward to 250 from 500.
 Increased Sentries Subgroup Priority. (Pretty much, now if you have sentries in your army they should appear first).
 
 ## Zerg
-Fixed Lurker having more range after getting the upgrade than they should.(Not 100% sure, tell me if it's still bugged).
+Fixed Lurker having more range after getting the upgrade than they should. (Not 100% sure, tell me if it's still bugged).
 Fixed Baneling(Hunter) not getting bonus speed from speed upgrade.
 Hydralisk cost reduced from 26 to 24.
 Ultralisk cost reduced to 140 from 150.
@@ -156,7 +233,7 @@ The Terran base in Solo/Co-op now increases their drop pods amount of units slow
 Warp Prism cost reduced to 75 from 100.
 Reduced the cost of Stalkers to 30 from 35.
 Hyperion can't be stunned anymore.
-Stalker life armor reduced by one , shields armor increased by one.
+Stalker life armor reduced by one, shields armor increased by one.
 Stanks fall from the sky event happens for both teams at once now.
 Fixed Wins in CO-OP/Solo.
 Reduced the cost of Tal'darim Photon Cannon by 10.
@@ -175,7 +252,7 @@ Bug fixes
 # Version 7.5 (3.5)
 CO-OP and Solo wins are now being saved to be used for later.
 -Wins now displays your wins on the gamemode you are playing
-Skins now are applied to the gamemode you are playing , so you need 10 Wins on the gamemode you are playing to have skins on that action.(Terran,Zerg,Protoss)
+Skins now are applied to the gamemode you are playing, so you need 10 Wins on the gamemode you are playing to have skins on that action.(Terran,Zerg,Protoss)
 Fixed some typos on the Tal'darim Spire.
 Fixed Elite Ghost unlimited range bug.
 Removed Elite Ghost cloak.
@@ -317,7 +394,7 @@ Reduced the cost of Battlecruiser 325->300.
 Reduced the cost of Viking 90->85.
 Medic cost reduced to 30 from 35.
 Supply Depot cost has been reduced.
-Supply Depots will now get attacked instead of being ignored , this doesn't apply to lowered depots.
+Supply Depots will now get attacked instead of being ignored, this doesn't apply to lowered depots.
 Modified terran activate the base
 Increased Firebat Health by 25.
 Reduced the HP gained by the Elite Firebat Upgrade by 25 (So basically the same because the normal one got buffed).
@@ -334,7 +411,7 @@ Reduced the cost of Phoenix by 5.
 Reduced Scout Select Priority so you can use Phoenix ability when you have both selected.
 Reduced Disruptor supply from 4 to 3.
 Reduced Reaver supply from 6 to 4, cost by 25 minerals.
-Reduced Colossus Damage by 5 , increased Colossus damage by 5 vs Light (Same dmg vs light like it has right now).
+Reduced Colossus Damage by 5, increased Colossus damage by 5 vs Light (Same dmg vs light like it has right now).
 Adept cost reduced 35->30.
 Reduced the cost of Tempest Upgrade.
 The Improved Colossus Design reduces health by 75 from 50.
@@ -360,7 +437,7 @@ High Templar and Archons now share the same subgroup
 Reduced the cost of Sky Fury for Mengsk
 Mengsk income comes now each 20 seconds from 10.
 Mengsk starting income doubled.
-Mengsk upgrade to make income come faster now reduces the time taken by 2 seconds from 1 , has reduced cost 250->100 and has 8 charges from 5 and the cost gets increased by 100 for each upgrade instead of getting doubled.
+Mengsk upgrade to make income come faster now reduces the time taken by 2 seconds from 1, has reduced cost 250->100 and has 8 charges from 5 and the cost gets increased by 100 for each upgrade instead of getting doubled.
 Reduced the Speed of Troopers by 0.1.
 Mengsk starts with 25 energy from 50.
 Buffed Mengsk Energy regen with 0,02 at the start.
@@ -372,7 +449,7 @@ Mengsk Bunker Salvage ability gives 75% minerals instead of 100%.
 Changed the upgrade for insta nukes for Mengsk Ghosts.
 Reduced the cost of Mengsk Starport and Fusion Core.
 Increased cost of Mengsk Battlecruiser by 100 gas.
-Changed the cost of Imperial Witness , now costs 25 more gas and 25 less minerals.
+Changed the cost of Imperial Witness, now costs 25 more gas and 25 less minerals.
 Doubled the kill reward of Enthralled Zerg for Mengsk.
 Reduced the time taken to train an Aegis Guard to 25 seconds from 30.
 Reduced the time taken to train an Emperor's Shadow to 35 seconds from 40.
@@ -429,22 +506,22 @@ The Swarm no longer gets skins if a player has zerg skins from the other team.
 
 Structure Overcharge now starts with 4 minutes cooldown from two.
 Structure Overcharge range reduced by 3.
-Omega Worm now has a bounty , rewards 125 minerals on death now.
-Hercules cost reduced , kill bounty reduced.
+Omega Worm now has a bounty, rewards 125 minerals on death now.
+Hercules cost reduced, kill bounty reduced.
 Cyclones can't target anymore buildings.
-Reduced the charges for reduce destruction wave cd by one , same for armor and shields upgrade for Alarak.
+Reduced the charges for reduce destruction wave cd by one, same for armor and shields upgrade for Alarak.
 Increased the number of charges for reducing cooldown of Alarak Gateway units by one.
 Units spawned by For Aiur! Event now gives bounty.
 Reduced the Health and Shields of Tal'darim Gateways.
 Increased the damage dealt by Leviathan.
 Reduced the cost of Perdition Turrets.
 Structure Overcharge can't be cast on air units anymore.
-Yagdra drop pods buffed , now drops Brakk aswell.
+Yagdra drop pods buffed, now drops Brakk aswell.
 Leviathan now casts his abilities only on enemies.
 Lurkers now have a bounty.
 Baneling event now has kaboomers aswell.
 Units shouldn't spawn anymore on cliffs sometimes.
-The enemy swarm will now choose between sending Brood lords , Devourers or Brutalisks later into the game.
+The enemy swarm will now choose between sending Brood lords, Devourers or Brutalisks later into the game.
 Wrath of the Tal'darim now gives 2x faster production from 4x.
 Added an upgrade for Wrath of the Tal'darim to give 4x faster production from 2x.
 Alarak won't use anymore his deadly charge ability on Neutral Units automatically.
@@ -471,7 +548,7 @@ Reduced the cost of Observers by 5.
 The Swarm starts now with one upgrade for Zerg Defensive Structures.
 Added a new event
 Mengsk now starts with more Gas Income.(25->30)
-Reduced the cost of Tal'darim Photon Cannon 150->125 , now uses 2 supply.
+Reduced the cost of Tal'darim Photon Cannon 150->125, now uses 2 supply.
 Increased the Health and Shields of Tal'darim Photon Cannon 200->250.
 Reduced Tal'darim Berserker cost 75->70
 Terran Reinforcements now has Raynor too coming to help.
