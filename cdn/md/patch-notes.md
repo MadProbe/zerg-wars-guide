@@ -1,7 +1,7 @@
 ﻿# Version 7.17
 ## Main game
 Mineral Income upgrade reduced from 100 minerals to 95.
-Faster Mineral Income upgrade costs 200 from 300  and now increases 150 from 200 in price when you research the upgrade.
+Faster Mineral Income upgrade costs 200 from 300 and now increases 150 from 200 in price when you research the upgrade.
 Increased Devastation Turret damage to 30 from 25 and increased the bonus damage versus armored to 35 from 25.
 Buffed the Planetary Fortress weapon, now it deals 50 damage from 40, deals more splash damage and has a bigger radius on the splash. 
 Changed a bit the spawning position of Nyduses from events.
@@ -11,7 +11,7 @@ Added more Mutalisks over time.
 Send Stank sabotage ability recharges faster and now is available earlier on in the game (8 minutes from 10).
 Send Leviathan and Send Apocalisk are available now earlier on in the game. (15 Minutes from 20 Minutes).
 Increased the Range of Covert Ops Siege Tanks by 2. (The siege tanks used by the Terran Base).
-Added a new event for Apocalypse difficulty.
+Added two new events for Apocalypse difficulty.
 Added a new event in any difficulty that chooses randomly an event from Apocalypse. (Good luck)
 Siege tanks now attack faster in tank mode, each 0.8 seconds from each second. (Applies for all 3 types of siege tanks in the game: terran, mengsk and terran base)
 
