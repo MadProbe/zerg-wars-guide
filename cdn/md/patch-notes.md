@@ -1,4 +1,12 @@
-﻿# Version 7.17
+﻿# Version 7.19
+Fixed Tal'darim Gateways button
+Pylon Power Source now works on high ground aswell if you put it below.
+Fixed Zerg Mineral Income Upgrade now it can be researched
+
+# Version 7.18
+Hotfix since I messed up the Tal'darim hotkeys on buildings.
+
+# Version 7.17
 ## Main game
 Mineral Income upgrade reduced from 100 minerals to 95.
 Faster Mineral Income upgrade costs 200 from 300 and now increases 150 from 200 in price when you research the upgrade.
